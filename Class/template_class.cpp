@@ -9,7 +9,7 @@ private:
 public:
     arithmetic(T x, T y);
     T Addition();
-    T Subtraction();
+    T Subtraction(); 
 };
 template<class T>
 arithmetic<T>::arithmetic(T x, T y)
